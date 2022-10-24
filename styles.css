@@ -134,7 +134,7 @@ main {
     padding: 2rem;
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+   
 }
 
 .card1 {
@@ -145,6 +145,7 @@ main {
     background-image: linear-gradient(129deg, rgba(186, 137, 95, 0.2) 0%, rgba(146, 95, 64, 0.5) 100%), url("/images/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg");
     background-size: cover;
     position: relative;
+    margin-right: 2rem;
 }
 
 .details {
@@ -170,6 +171,7 @@ main {
     right:0;
     background-color: #D9D6D2;
     padding: 0.3rem;
+    color: #593A28;
 }
 
 .name {
@@ -189,6 +191,7 @@ main {
     background-image: linear-gradient(129deg, rgba(186, 137, 95, 0.2) 0%, rgba(146, 95, 64, 0.5) 100%), url("/images/ronnie-george-9gGvNWBeOq4-unsplash.jpg");
     background-size: cover;
     position: relative;
+    margin-right: 2rem;
 }
 
 .card3 {
@@ -204,7 +207,6 @@ main {
 .second-row {
     display: flex;
     padding: 2rem;
-    gap: 2rem;
     justify-content: space-between;
 }
 
@@ -217,6 +219,7 @@ main {
     position: relative;
     border-radius: 30px;
     overflow: hidden;
+    margin-right: 2rem;
     /* object-fit: cover; */
 }
 
@@ -269,13 +272,11 @@ main {
    /* background-color: tomato; */
     display: flex;
     flex-direction: column;
-    gap: 2rem;
   width: 40%;
 }
 
 .person {
     box-shadow: 5px 8px 10px 0px #e3e3e3;
-
     padding: 1rem 2rem;
     border-radius: 30px;
     color: #555555;
@@ -471,6 +472,7 @@ flex-direction: column;
     flex-grow: 0;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .second-card2{
@@ -485,6 +487,10 @@ flex-direction: column;
 .reviews{
     width: 100%;
    
+}
+
+.person {
+    margin-bottom: 2rem;
 }
 
 .amenities{
