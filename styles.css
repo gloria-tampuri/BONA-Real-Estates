@@ -443,22 +443,9 @@ header img{
 }
 .first-row{
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
 }
 
-.first-row::-webkit-scrollbar {
-    width: 8px;               /* width of the entire scrollbar */
-  }
-  
-  .first-row::-webkit-scrollbar-track {
-    background: #8C593B;        /* color of the tracking area */
-  }
-  
-  .first-row::-webkit-scrollbar-thumb {
-    background-color: white;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #8C593B;  /* creates padding around scroll thumb */
-  }
+
 
 .card {
     min-width: 300px;
